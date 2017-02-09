@@ -1,7 +1,9 @@
 package greet
 
-func hello() string
+import _ "github.com/siadat/golinkname-test/hello"
+
+func hellofunc() string // provided by hello package
 
 func Greet() string {
-	return hello()
+	return hellofunc()
 }

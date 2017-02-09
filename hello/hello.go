@@ -1,9 +1,8 @@
 package hello
 
-// Importing unsafe just because compiler says: go:linkname only allowed in Go files that import "unsafe"
-import _ "unsafe"
+import _ "unsafe" // for go:linkname
 
-//go:linkname hello greet.hello
-func hello() string {
-	return "HELLO"
+//go:linkname hola github.com/siadat/golinkname-test/greet.hellofunc
+func hola() string {
+	return "Hello from hello package"
 }

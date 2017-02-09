@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/siadat/golinkname/greet"
+	"github.com/siadat/golinkname-test/greet"
 )
 
 func main() {
