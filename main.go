@@ -8,4 +8,5 @@ import (
 
 func main() {
 	fmt.Println(greet.Greet())
+	fmt.Println(greet.A{}.ExportedMethod())
 }
